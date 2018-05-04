@@ -13,4 +13,10 @@ class Curso(models.Model):
 class Vestibular(models.Model):
     nome = models.CharField(max_length=200)
 
-class candidato(models.Model):+
+class candidato(models.Model):
+    nome = models.CharField(max_length=200)
+    rg = models.CharField(max_length=200)
+    cpf = models.CharField(max_length=200)
+    endereco = models.CharField(max_length=200)
+    telefone = models.CharField(max_length=200)
+    
