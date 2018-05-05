@@ -36,7 +36,8 @@ urlpatterns = patterns('',
             'next_page': '/',
         },
         name='logout'),
-    url(r'^lista_candidatos', 'app.views.lista_candidatos', name='lista_candidatos')
+    url(r'^lista_candidatos', 'app.views.lista_candidatos', name='lista_candidatos'),
+    url(r'^locais_provas', 'app.views.locais_provas', name='locais_provas')                   
     # Uncomment the admin/doc line below to enable admin documentation:
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 
